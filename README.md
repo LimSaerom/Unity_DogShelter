@@ -1,133 +1,43 @@
+# 📒 [Notion Page](https://www.notion.so/DogShelter-20b73547a88280e9a428d5b2226c4a02)
+
 ⚙️ Unity Version: 2021.3.14f1  
 ⚙️ Visual Studio 2022  
-⚙️ Package Pixel Skies DEMO Background pack  
-(https://assetstore.unity.com/packages/2d/environments/pixel-skies-demo-background-pack-226622?locale=ko-KR&srsltid=AfmBOopSFS-Bbl1-gaR8CGsPHXf9fYHMwBRggQfXX-dV5_w72N5IR7VV)
+⚙️ Window 10  
+⚙️ Package   
+[1. Pixel Skies DEMO Background pack](https://assetstore.unity.com/packages/2d/environments/pixel-skies-demo-background-pack-226622?locale=ko-KR&srsltid=AfmBOopSFS-Bbl1-gaR8CGsPHXf9fYHMwBRggQfXX-dV5_w72N5IR7VV)
     
 # DogShelter
 
-기간: 2024.05.20 ~ 2024.06.19
-구성원: 1인 (개인 프로젝트)
-기술 스택: C#, Unity, Visual Studio 2022
-URL: https://github.com/LimSaerom/Unity_DogShelter.git
-
----
-
 ![image.png](Notion_Image/image.png)
 
-# DogShelter
 
-2024.05.20 ~ 2024.06.19 (4주)
+## 서비스 소개  
 
-## 서비스 소개
-
-유기견 보호소 방문 경험을 바탕으로 기획한 2D 육성 게임입니다. 플레이어는 미니게임을 통해 강아지와 호감도를 높이고, 그 결과에 따라 엔딩을 경험하게 됩니다. 게임을 통해 유기동물 봉사활동에 대한 이해와 관심을 유도하는 것이 목적입니다.
-
-## 소개 영상
-
-[https://youtu.be/8ZJSWe0BuFQ?si=LhxbXrLQGdrv5v6D](https://youtu.be/8ZJSWe0BuFQ?si=LhxbXrLQGdrv5v6D)
+유기견 보호소 방문 경험을 바탕으로 기획한 2D 육성 게임입니다. 플레이어는 미니게임을 통해 강아지와 호감도를 높이고, 그 결과에 따라 엔딩을 경험하게 됩니다. 게임을 통해 유기동물 봉사활동에 대한 이해와 관심을 유도하는 것이 목적입니다.  
 
 ## 주요 기능
 
 ### ✅ 메인화면
-
-- 게임 진행 혹은 종료를 선택 할 수 있습니다.
-    - 게임 진행(미니게임 선택)
-        
-        ![image.png](Notion_Image/image%201.png)
-        
-    - 게임 종료
-        
-        ![image.png](Notion_Image/image%202.png)
-        
-
 ### ✅ 호감도 시스템
-
-![image.png](Notion_Image/image%203.png)
-
-- 강아지와의 호감도를 나타내는 UI(SliderBar)를 화면에 출력.
-- 미니게임 결과에 따라 값이 달라집니다.
-    - 게임 최초 실행시 호감도는 10으로 시작합니다.
-
 ### ✅ 미니 게임 3종 선택가능
-
-- 유기견 보호소 방문시 주로 시행하는 봉사를 게임 형식으로 구현. 결과에 따라 호감도가 변동됩니다.
-    - 게임 성공시 호감도 30 상승
-    - 게임 실패시 호감도 20 하락
-- UI 를 활용하여 원하는 ICON 선택시 미니게임 화면으로 돌입합니다.
-- 미니 게임 종료시 다시 메인화면으로 돌아와 게임을 선택할 수 있습니다.
-
-### ✅ 미니 게임1_Run (SNS 홍보)  :icon2:
-
-![image.png](Notion_Image/image%204.png)
-
-- 장애물 달리기 형태의 미니게임 구현.
-- 방향키와 스페이스바를 활용하여 이동 및 점프 기능 구현
-- 장애물과 충돌시 일정시간 동작 불가.
-- 승리조건 : 제한 시간안에 장애물을 넘어 골 지점 도착
-
-### ✅ 미니 게임2_Miro (산책)  :icon3-2:
-
-![image.png](Notion_Image/image%205.png)
-
-![image.png](Notion_Image/35d4c41c-7da2-4758-8bab-56a070e0d9cb.png)
-
-- 미로 탈출 형태의 미니게임 구현.
-- 방향키를 이용하여 이동
-- 승리조건 : 제한 시간안에 골 지점 도착
-
-### ✅ 미니 게임3_Drop (밥주기)  :icon4-2:
-
-![image.png](Notion_Image/image%206.png)
-
-- 하늘에서 떨어지는 아이템을 먹어 점수를 획득하는 방식의 미니게임 구현.
-- 상단에서 획득 점수와 잔여시간을 확인할 수 있습니다.
-- 아이템은 정상사료와 불량사료 2종으로 구현
-- 방향키와 이동, 일정시간이 지나면 이동속도가 상승합니다.
-- 승리조건 : 제한시간 안에 300점 달성
-
+### ✅ 미니 게임1_Run (SNS 홍보)
+### ✅ 미니 게임2_Miro (산책)
+### ✅ 미니 게임3_Drop (밥주기)
 ### ✅ 호감도 결과에 따른 엔딩 출력
 
-- 2종의 엔딩으로 구성, 호감도 수치 달성시 엔딩화면이 자동 출력됩니다.
-    
-    ![image.png](Notion_Image/image%207.png)
-    
-
-## 기술 스택
-
-- `C#`
-- `Window10`
-- `Visual Studio 2022`
-- `Unity2021.3.14f1`
-
-## 아키텍처 구조
-
-### 1. 스토리보드 / 화면설계서
-
-![image.png](Notion_Image/image%208.png)
-
-![image.png](Notion_Image/image%209.png)
-
-![image.png](Notion_Image/image%2010.png)
-
-![image.png](Notion_Image/image%2011.png)
-
-### 2. FlowChart
+### FlowChart
 
 ![FlowChart.png](Notion_Image/FlowChart.png)
 
-### 3. Asset 제작
+### Asset 제작
 
 Dog, Player, Log 등 일부 게임에 맞는 에셋 제작
 
 ![정리.png](Notion_Image/%EC%A0%95%EB%A6%AC.png)
 
-## **기술 선정 이유**
-
-✅ C#
-Unity 에서 사용되는 언어로 Unity 활용, 게임 개발이라는 주제에 맞춰 언어를 선정하게 되었습니다. Unity 자체적인 내장함수와 호환이 되고 동시에 객체지향언어를 공부하기 위함이었습니다.?
 
 ## 트러블 슈팅 (1/2)
-
+<details>
 🚨 문제 배경
 
 프로젝트를 여러개의 Scenes으로 구성하였고, 이 과정에서 Scenes 전환 시 호감도의 값이 초기화 되는 문제 발생.
@@ -209,10 +119,10 @@ Unity 에서 사용되는 언어로 Unity 활용, 게임 개발이라는 주제�
     
         }
     ```
-    
+    </details>
 
 ## 트러블 슈팅 (2/2)
-
+<details>
 🚨 문제 배경
 
 호감도를 관리하는 스크립트에서 호감도를 표현하는 UI(Slider)를 찾아오지 못하는 오류 발생. 1차 오류 해결하였으나, 미니게임으로 씬 전환시에도 UI가 생성되는 문제가 추가 발생
@@ -295,13 +205,5 @@ update 함수를 활용해서 계속 반복 실행하도록 지정
     
         }
     ```
-    
+    </details>
 
-## **프로젝트 성과**
-
-- Desing Pattern 학습 및 적용
-- 기획, 게임로직, 그래픽, UI 디자인 등 개발 전후 과정 경험
-
-## **프로젝트 리뷰(회고)**
-
-개발을 공부하고 처음 실행하는 프로젝트이다 보니 이론적으로 부족한 부분이 너무 많았다고 생각이 들었습니다. 1인 개발로 진행하여 게임 로직, 그래픽, UI 디자인 등에 도전하였습니다. 기존 게임 모작 보단 첫 프로젝트인 만큼 직접 기획하고 싶었고, 그래서 더 기술적인 부분이나 게임 진행 방식 등 알고리즘 적용에 많은 애로사항을 겪었습니다. 1개월이라는 한전된 개발 기간 동안, 구현하려는 콘텐츠의 난이도가 제 실력보다 높아 많은 도전이 있었습니다. 이로 인해 여러 기능을 충분히 구현하지 못하고, 일부 기능이 기대에 미치지 못한 점이 아쉽습니다. 관련 강의시간에 예제를 통해 학습했던 기본 기능(이동, 씬 전환, Prefab 등)을 활용하고, 또 구상한 시스템을 구축하기 위해 Desing Pattern의 개념을 공부하는 계기가 되었고, 실제로 가장 기초적인 Singleton을 적용해 볼 수 있어 좋은 경험이었다고 생각합니다.
