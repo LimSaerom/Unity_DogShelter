@@ -1,6 +1,7 @@
 ⚙️ Unity Version: 2021.3.14f1  
-⚙️ Visual Studio 2022
-⚙️ Package Pixel Skies DEMO Background pack(https://assetstore.unity.com/packages/2d/environments/pixel-skies-demo-background-pack-226622?locale=ko-KR&srsltid=AfmBOopSFS-Bbl1-gaR8CGsPHXf9fYHMwBRggQfXX-dV5_w72N5IR7VV)
+⚙️ Visual Studio 2022  
+⚙️ Package Pixel Skies DEMO Background pack  
+(https://assetstore.unity.com/packages/2d/environments/pixel-skies-demo-background-pack-226622?locale=ko-KR&srsltid=AfmBOopSFS-Bbl1-gaR8CGsPHXf9fYHMwBRggQfXX-dV5_w72N5IR7VV)
     
 # DogShelter
 
